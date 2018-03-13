@@ -115,7 +115,7 @@ function checkFinalResult() {
     if (player.score === 3) {
         newGameElem.style.display = 'block';
         pickElem.style.display = 'none';
-        newGameBtn.innerHTML = "Wygrał jebany!";
+        newGameBtn.innerHTML = "Wygrałeś!";
         
     } else if (computer.score === 3) {
         newGameElem.style.display = 'block';
